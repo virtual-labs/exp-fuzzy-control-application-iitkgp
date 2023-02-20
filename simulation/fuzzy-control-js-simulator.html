@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="js/math.min.js">
+</script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/fce.css">
+</head>
+<body onload="canvas11();canvas22();canvas33();canvas44();">
+<div class="wrapper">
+   		<div class="uppersection">
+	           <center><h2>Fuzzy Control Example</h2>
+			   <h3>Select Pressure,Temperature and Flow rate and Click on Result Button,Fuzzy Control will Output the Mode(Pattern) of Operation</h3></center>
+			   
+		</div>  <!---------------------- end of .upperSection------------------->
+		
+   		<div class="lowersection">
+			      <div class="lowerleftsection">
+   		                   <div class="lowerleftuppersection">
+							   <div class="canvas2d-view" id="canvas2d-view">
+							   		<div id="divv1"></div>
+								  <center><div id="divv4"></div></center>
+								<canvas id="mycanvas1" width="400px" height="150px"></canvas> 
+								  <center><div id="divv8"></div></center>
+							  </div>
+							  
+<!--						     <output id="out1"></output>
+-->							  <center><h2><font face="Georgia" style="color:black;font-size:13px;">Pressure(kPa)</font></h2></center>		  
+		          			</div>	
+							<!--------------- end of .lowerleftuppersection----------------------->   
+   		                   <div class="lowerleftmiddlesection">
+							   <div class="canvas2d-view" id="canvas2d-view">
+							   		<div id="divv2"></div>
+								  <center><div id="divv5"></div></center>	  
+								<canvas id="mycanvas2" width="400px" height="150px"></canvas> 
+								  <center><div id="divv9"></div></center>
+							  </div>
+<!-- 							  <output id="out1"></output>
+-->							  <center><h2><font face="Georgia" style="color:black;font-size:13px;">Temperature(C)</font></h2></center>		  
+		          			</div>	
+							<!--------------- end of .lowerleftmiddlesection----------------------->   
+						   		
+		                   <div class="lowerleftlowerSection">
+		                          <div class="canvas2d-view" id="canvas2d-view"> 
+								     <div id="divv3"></div> 
+								  <center><div id="divv6"></div></center>
+            		                      <canvas id="mycanvas3" width="400px" height="150px"> </canvas>
+								  <center><div id="divv10"></div></center>
+								  </div>	
+<!--								   <output id="out2"></output>
+-->									<center><h2><font face="Georgia" style="color:black;font-size:13px;">Flow rate(gph)</font></h2></center>	  
+		                   </div>	
+						   <!--------------- end of .lowerleftlowerSection----------------------->
+	              </div><!--------------- end of .lowerleftsection----------------------->
+<!--				           <div class="lowermiddlesection">
+				           </div>
+                           <!--------------- end of .lowermiddlesection----------------------->
+		          <div class="lowerrightsection">
+   		                   <div class="lowerrightupperSection">
+						  <div class="btn"> 
+						  		<ul>
+									<li><input type="button"  id="rslt" name="Result" value="RESULT" disabled="true" onclick="Decision1();Decision2();Decision3();"></li>
+									<li><input type="button"  id="how" value="HOW" disabled="true" onclick="how();"></li>
+									<li><input type="button" id="clr" name="Clear" value="CLEAR"></li>
+								</ul>
+	                          	<div class="clearfix"></div>
+                           </div>
+		                          <div class="canvas2d-view" id="canvas2d-view"> 
+								  <center><div id="divv7"></div></center>	  
+            		                 <center> <canvas id="mycanvas4" width="400px" height="150px"></canvas></center>
+								  </div>
+<!--												  <output id="out3"></output>
+-->		                   </div>	<!--------------- end of .upperlowerSection----------------------->   		
+		          <div class="lowerrightlowerSection">
+				  	<div class="howDiv"></div>
+		          </div>	<!--------------- end of .lowerlowerSection----------------------->
+		          </div>	<!--------------- end of .lowerrightsection----------------------->			
+	    </div> <!--------- end of .lowerSection------------------->
+</div><!-- end of .wrapper -->
+</body>
+<script src ="js/fcecan1.js"></script>
+<script src ="js/fcecan2.js"></script>
+<script src ="js/fcecan3.js"></script>
+<script src ="js/fcecan4.js"></script>
+<script src ="js/result.js"></script>
+<script src ="js/how.js"></script>
+</html>
