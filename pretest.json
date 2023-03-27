@@ -1,0 +1,27 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Fuzzy logic is a form of?",
+      "answers": {
+        "a": "Two-valued logic",
+        "b": "Crisp set logic",
+        "c": "Many-valued logic",
+        "d": "Binary set logic"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How is Fuzzy Logic different from conventional control methods?",
+      "answers": {
+        "a": "IF and THEN Approach",
+        "b": "FOR Approach",
+        "c": "WHILE Approach",
+        "d": "DO Approach"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}

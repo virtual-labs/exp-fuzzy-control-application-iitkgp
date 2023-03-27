@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "How many types of random variables are available?",
+      "answers": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The values of the set membership is represented by?",
+      "answers": {
+        "a": "Discrete Set",
+        "b": "Degree of truth",
+        "c": "Probabilities",
+        "d": "Both b & c        "
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Fuzzy set theory defines fuzzy operators. Choose the fuzzy operators from the following.",
+      "answers": {
+        "a": "AND",
+        "b": "OR",
+        "c": "NOT",
+        "d": "EX-OR"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}
